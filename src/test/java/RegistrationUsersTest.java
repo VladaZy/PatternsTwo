@@ -16,7 +16,7 @@ public class RegistrationUsersTest {
 
     @BeforeEach
     public void setUp() {
-        Configuration.browser = "chrome";
+
         open("http://localhost:9999/");
     }
 
